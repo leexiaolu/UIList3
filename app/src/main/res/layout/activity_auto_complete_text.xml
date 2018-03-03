@@ -6,4 +6,31 @@
     android:layout_height="match_parent"
     tools:context="com.example.leesnriud.uilist3.AutoCompleteTextActivity">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="18sp"
+            android:text="请以张开头"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <AutoCompleteTextView
+            android:id="@+id/atv_content"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:completionHint="请输入搜索内容"
+            android:completionThreshold="1"
+            android:dropDownHorizontalOffset="5dp" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/matv_content"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:completionThreshold="1"
+            android:dropDownHorizontalOffset="5dp"
+            android:text="" />
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
