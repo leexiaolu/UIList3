@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item>青铜</item>
+        <item>白银</item>
+        <item>黄金</item>
+        <item>铂金</item>
+        <item>钻石</item>
+        <item>星耀</item>
+        <item>车神</item>
+    </string-array>
+</resources>
